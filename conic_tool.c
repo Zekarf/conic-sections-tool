@@ -115,7 +115,7 @@ int main(void)
                             a = -D / 2;
                             b = -E / 2;
                             r = sqrt(pow(D, 2) + pow(E, 2) - 4 * F) / 2;
-                            printf("该圆的标准方程为：(x-a)²+(y-b)²=r²\n", a, b, r);
+                            printf("该圆的标准方程为：(x-%g)²+(y-%g)²=%g\n", a, b, pow(r, 2));
                             break;
                         }
                         case 5:
@@ -333,7 +333,7 @@ int main(void)
                     }
 
                     double result;
-                    switch (tuoyuan_zhou)
+                    switch (tuoyuan_zhou_choice)
                     {
                     case 1:
                     {
@@ -416,7 +416,7 @@ int main(void)
                         e = c / a;
                     }
 
-                    switch (tuoyuan_zhou)
+                    switch (tuoyuan_zhou_choice)
                     {
                     case 1:
                     {
@@ -693,7 +693,7 @@ int main(void)
                         e = c / a;
                     }
 
-                    switch (shuangquxian_zhou)
+                    switch (shuangquxian_zhou_choice)
                     {
                     case 1:
                     {
@@ -985,7 +985,7 @@ int main(void)
                         scanf("%lf", &p);
                     }
 
-                    switch (paowuxian_zhou)
+                    switch (paowuxian_zhou_choice)
                     {
                     case 1:
                     {
@@ -1219,7 +1219,7 @@ int main(void)
                     }
 
                     double A_1, B_1, C_1, Δ, result;
-                    switch (paowuxian_zhou)
+                    switch (paowuxian_zhou_choice)
                     {
                     case 1:
                     {
